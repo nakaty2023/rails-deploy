@@ -27,6 +27,11 @@ jobs:
           bundle config --local without production
           bundle install
 
+      - name: Setup Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
       - name: Cache yarn
         uses: actions/cache@v2
         with:
