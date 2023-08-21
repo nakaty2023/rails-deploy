@@ -17,6 +17,7 @@ gem 'webpacker',  '~> 6.0.0.pre.2'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.10.3', require: false
+gem 'dotenv-rails', '2.7.6'
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
